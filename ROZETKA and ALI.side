@@ -1,0 +1,479 @@
+{
+  "id": "6973600f-8ceb-4999-a89a-80e34820b91f",
+  "version": "2.0",
+  "name": "ROZETKA",
+  "url": "https://best.aliexpress.com/",
+  "tests": [{
+    "id": "9973afe8-dbef-4b3e-96b1-bd4edaf3ddba",
+    "name": "ROZETKA 1",
+    "commands": [{
+      "id": "8425b9bf-7281-4a5b-aa11-c378aadf350a",
+      "comment": "",
+      "command": "open",
+      "target": "https://rozetka.com.ua/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb4120ec-82fe-44f6-b051-810c9d6ffabf",
+      "comment": "",
+      "command": "click",
+      "target": "//button[@id='fat-menu']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7e0d1d59-3608-460d-910f-de7853be34c7",
+      "comment": "",
+      "command": "click",
+      "target": "//rz-header-fat-menu/rz-fat-menu[1]/div[2]/ul[1]/li[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[1]/a[1]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fdd43fc8-be41-44cd-a685-1f82009557c3",
+      "comment": "",
+      "command": "click",
+      "target": "//body/app-root[1]/div[1]/div[1]/rz-category[1]/div[1]/main[1]/rz-catalog[1]/div[1]/div[1]/section[1]/rz-grid[1]/ul[1]/li[1]/rz-catalog-tile[1]/app-goods-tile-default[1]/div[1]/div[2]/a[1]/img[1]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa866714-d3a6-4c7b-9d7f-349477eeb85d",
+      "comment": "",
+      "command": "click",
+      "target": "//span[contains(text(),'Ноутбук Acer Aspire 5 A515-45G-R9ML (NX.A8CEU.00N)')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "073c1c70-6729-4ce9-9f5e-5050dd308eec",
+      "comment": "",
+      "command": "click",
+      "target": "//body/app-root[1]/div[1]/div[1]/rz-product[1]/div[1]/rz-product-tab-main[1]/div[1]/div[1]/div[2]/rz-product-main-info[1]/div[1]/div[1]/ul[1]/li[1]/rz-product-buy-btn[1]/app-buy-button[1]/button[1]/span[1]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c036502d-3936-4ad6-a9fd-ed6b8c185d05",
+      "comment": "",
+      "command": "click",
+      "target": "//a[contains(text(),'Оформити замовлення')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "294092e3-b096-47ee-9b09-8eedccf1c0dc",
+      "comment": "",
+      "command": "click",
+      "target": "//body/app-root[1]/div[1]/div[1]/rz-checkout-main[1]/section[1]/rz-checkout-orders[1]/rz-checkout-orders-content[1]/div[1]/form[1]/div[1]/main[1]/rz-checkout-order[1]/div[1]/div[2]/fieldset[1]/div[1]/a[1]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f166e6b-146c-4edc-bec6-a6f5268fbdc5",
+      "comment": "",
+      "command": "click",
+      "target": "//button[@id='cartProductActions0']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0763626-5802-49ca-8205-faaa9e08eb87",
+      "comment": "",
+      "command": "click",
+      "target": "//body/app-root[1]/rz-single-modal-window[1]/div[3]/div[2]/rz-shopping-cart[1]/div[1]/ul[1]/li[1]/rz-cart-product[1]/div[1]/div[1]/rz-popup-menu[1]/div[1]/ul[1]/li[1]/rz-trash-icon[1]/button[1]",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d41a155d-b032-4675-87e8-7cce43320c55",
+    "name": "ROZETKA 2",
+    "commands": [{
+      "id": "29282fd3-5b72-42a1-973b-9365d0d25c35",
+      "comment": "",
+      "command": "open",
+      "target": "https://rozetka.com.ua/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "805ef68c-67f4-4b49-9c0f-3905306652a6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "553007f8-3efe-4bb5-9a01-913553f72525",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Смартфони, ТВ і електроніка",
+      "targets": [
+        ["linkText=Смартфони, ТВ і електроніка", "linkText"],
+        ["css=.menu-categories_type_main > .menu-categories__item:nth-child(2) > .menu-categories__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Смартфони, ТВ і електроніка')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://rozetka.com.ua/ua/telefony-tv-i-ehlektronika/c4627949/')])[2]", "xpath:href"],
+        ["xpath=//rz-sidebar-fat-menu/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4da6755-73b4-4770-9948-84c47d4bab20",
+      "comment": "",
+      "command": "click",
+      "target": "css=.top-widget__categories-item:nth-child(1) .popular-category__title",
+      "targets": [
+        ["css=.top-widget__categories-item:nth-child(1) .popular-category__title", "css:finder"],
+        ["xpath=//span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Apple iPhone')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cad5130c-947a-4e1e-afda-20077f470e0c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-grid__cell:nth-child(1) .goods-tile__title",
+      "targets": [
+        ["css=.catalog-grid__cell:nth-child(1) .goods-tile__title", "css:finder"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Мобільний телефон Apple iPhone 11 128GB White (MHDJ3)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "efbe93aa-79b4-4667-9aaa-9b5755e10f11",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabs__item:nth-child(3) > .tabs__link",
+      "targets": [
+        ["css=.tabs__item:nth-child(3) > .tabs__link", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://rozetka.com.ua/ua/apple_mhdj3/p260921081/comments/')])[2]", "xpath:href"],
+        ["xpath=//div/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d60c318-436c-4d50-a2c3-deb5622a76c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button--gray",
+      "targets": [
+        ["css=.button--gray", "css:finder"],
+        ["xpath=(//button[@type='button'])[26]", "xpath:attributes"],
+        ["xpath=//rz-comment-button/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Написати відгук')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "30aa6310-af4d-4c63-8fc1-1231ee717746",
+      "comment": "",
+      "command": "click",
+      "target": "id=dostoinstva",
+      "targets": [
+        ["id=dostoinstva", "id"],
+        ["name=dignity", "name"],
+        ["css=#dostoinstva", "css:finder"],
+        ["xpath=//input[@id='dostoinstva']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55438f21-157d-42e4-a143-34f5a5bb1c76",
+      "comment": "",
+      "command": "type",
+      "target": "id=dostoinstva",
+      "targets": [
+        ["id=dostoinstva", "id"],
+        ["name=dignity", "name"],
+        ["css=#dostoinstva", "css:finder"],
+        ["xpath=//input[@id='dostoinstva']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "43540baf-12ea-49d5-8cc7-913bea11cb57",
+      "comment": "",
+      "command": "click",
+      "target": "id=nedostatki",
+      "targets": [
+        ["id=nedostatki", "id"],
+        ["name=shortcomings", "name"],
+        ["css=#nedostatki", "css:finder"],
+        ["xpath=//input[@id='nedostatki']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3f8fb29-c92a-4873-9626-3171e36918da",
+      "comment": "",
+      "command": "type",
+      "target": "id=nedostatki",
+      "targets": [
+        ["id=nedostatki", "id"],
+        ["name=shortcomings", "name"],
+        ["css=#nedostatki", "css:finder"],
+        ["xpath=//input[@id='nedostatki']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "c42be8bb-f7f2-4e2b-928f-26d4c83d9d92",
+      "comment": "",
+      "command": "click",
+      "target": "id=comment-text",
+      "targets": [
+        ["id=comment-text", "id"],
+        ["name=text", "name"],
+        ["css=#comment-text", "css:finder"],
+        ["xpath=//textarea[@id='comment-text']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3058cb85-ec79-4288-8c19-ce30c4417c05",
+      "comment": "",
+      "command": "type",
+      "target": "id=comment-text",
+      "targets": [
+        ["id=comment-text", "id"],
+        ["name=text", "name"],
+        ["css=#comment-text", "css:finder"],
+        ["xpath=//textarea[@id='comment-text']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "111"
+    }, {
+      "id": "3f17f168-9a8e-4731-b427-c3c90e679ff8",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(2)",
+      "targets": [
+        ["css=label:nth-child(2)", "css:finder"],
+        ["xpath=//div[9]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Повідомляти про відповіді по електронній пошті')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4725607d-8d60-41ae-a7d0-33de391723d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button--medium:nth-child(2)",
+      "targets": [
+        ["css=.button--medium:nth-child(2)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[10]/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Залишити відгук')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0faa906-e419-4a2a-a081-d584c61119a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.stars__item:nth-child(4) path",
+      "targets": [
+        ["css=.stars__item:nth-child(4) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd8b1b58-bc04-441f-a82a-1f0c6551db9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button--medium:nth-child(2)",
+      "targets": [
+        ["css=.button--medium:nth-child(2)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[10]/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Залишити відгук')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b90a1dc4-fb89-40f8-8d1b-4f4bddfa8a56",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=7",
+      "targets": [
+        ["index=7"]
+      ],
+      "value": ""
+    }, {
+      "id": "0396725d-3ada-4643-955f-c69b9f1fba12",
+      "comment": "",
+      "command": "click",
+      "target": "id=recaptcha-anchor-label",
+      "targets": [
+        ["id=recaptcha-anchor-label", "id"],
+        ["css=#recaptcha-anchor-label", "css:finder"],
+        ["xpath=//label[@id='recaptcha-anchor-label']", "xpath:attributes"],
+        ["xpath=//div[@id='rc-anchor-container']/div[3]/div[2]/div/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Я не робот')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff7abca1-521e-44c7-9014-c8c12193fd64",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7e10d9c-1963-43bf-b541-5a19fc08d86c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button--medium:nth-child(2)",
+      "targets": [
+        ["css=.button--medium:nth-child(2)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[10]/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Залишити відгук')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b383ad05-abe7-4f6d-bf3f-6f8cb735c015",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal__close",
+      "targets": [
+        ["css=.modal__close", "css:finder"],
+        ["xpath=(//button[@type='button'])[86]", "xpath:attributes"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "dde3ee2d-6041-4cc2-9aa9-b075a71e429d",
+    "name": "ROZETKA 3",
+    "commands": [{
+      "id": "0846081e-39e0-42ed-a8c1-299790e1117f",
+      "comment": "",
+      "command": "open",
+      "target": "https://best.aliexpress.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "189436dd-3988-4ee7-90af-0efd41bc220f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "15b6842c-abfd-44ca-8fa5-73f4bcdbb6c8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Men's Fashion",
+      "targets": [
+        ["linkText=Men's Fashion", "linkText"],
+        ["css=.cl-item-men > .cate-name a", "css:finder"],
+        ["xpath=//div[@id='home-firstscreen']/div/div/div[2]/div/div[2]/dl[2]/dt/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.aliexpress.com/category/100003070/men-clothing-accessories.html?spm=a2g0o.best.102.1.292b2c25KH9F0L')]", "xpath:href"],
+        ["xpath=//dl[2]/dt/span/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4bb6020-a17e-4210-9132-1bd23afa40e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.v3--container--31q8BOL:nth-child(3) .v3--titleText--3y9Q1Io",
+      "targets": [
+        ["css=.v3--container--31q8BOL:nth-child(3) .v3--titleText--3y9Q1Io", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div/div[2]/div[3]/a[3]/div[2]/div/h1", "xpath:idRelative"],
+        ["xpath=//a[3]/div[2]/div/h1", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win363",
+      "windowTimeout": 2000
+    }, {
+      "id": "6ab43cc2-f668-4623-87bb-50176ec6d5f4",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win363}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f8898d5-2ede-4df0-993c-cf0285cdf30e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,160)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f844aac-e9ba-4c73-b8c7-275f1a1396a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sku-property-item:nth-child(1) img",
+      "targets": [
+        ["css=.sku-property-item:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='F01912-2']", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[2]/div[7]/div/div/ul/li/div/img", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/ul/li/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90198d27-bb44-4b69-a8a3-d208ca0c11a1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,236)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7e9b6464-2c34-4536-9d94-d6ccae74d8b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addcart-wrap:nth-child(2) > .next-btn",
+      "targets": [
+        ["css=.addcart-wrap:nth-child(2) > .next-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[2]/div[12]/span[2]/button", "xpath:idRelative"],
+        ["xpath=//span[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a81cd50b-76e0-4077-b864-bed019616dc8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.view-shopcart",
+      "targets": [
+        ["css=.view-shopcart", "css:finder"],
+        ["xpath=(//button[@type='button'])[10]", "xpath:attributes"],
+        ["xpath=//a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'View Shopping Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "044b15d4-1de9-4b89-bcc2-3a639628bc82",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-product-body .comet-checkbox-circle",
+      "targets": [
+        ["css=.cart-product-body .comet-checkbox-circle", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div[3]/div/div/div/div[2]/div/div/label/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/label/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bafb8a4a-95e5-4182-8c1d-e010bb054d53",
+      "comment": "",
+      "command": "click",
+      "target": "css=.comet-icon-delete > svg",
+      "targets": [
+        ["css=.comet-icon-delete > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7c3c32f-43e8-48f6-865f-3e7681af2a4c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.comet-btn-primary:nth-child(1)",
+      "targets": [
+        ["css=.comet-btn-primary:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//div[12]/div[2]/div/div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Remove')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "be5ee27a-d007-4f33-9e54-0faa892fee22",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9973afe8-dbef-4b3e-96b1-bd4edaf3ddba"]
+  }],
+  "urls": ["https://rozetka.com.ua/ua/", "https://best.aliexpress.com/"],
+  "plugins": []
+}
